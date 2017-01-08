@@ -1,0 +1,10 @@
+<h1>
+    Section component works!
+</h1>
+
+<div *ngFor="let section of sections"  >
+    <h1>section.title</h1>
+    <ul>
+        <li *ngFor="let entry of section.data">{{ entry }}</li>
+    </ul>
+</div>
